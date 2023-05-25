@@ -1,0 +1,54 @@
+body{
+    height: 100vh;
+    background-color: rgb(185, 243, 228);
+}
+
+.navbar{
+    background-color: white; 
+}
+
+.navbar-brand{
+    color: rgb(255, 170, 207);
+    display: flex;
+    position: relative;
+    left: 50px;
+    font-size: 70px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.dropdown-toggle{
+    font-weight: bold;
+}
+
+.dropdown-item {
+    color: rgb(255, 170, 207);
+}
+
+.carousel{
+    width: 90%;
+    display: flex;
+    left: 5%;
+    top: 5%;
+}
+
+.title1 {
+    padding-top: 100px;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.card{
+    display: inline-flex;
+    margin: 30px;
+    left: 100px;
+    border: 5px solid black;
+}
+
+footer{
+    background-color: rgb(242, 210, 224);
+    color: white;
+    margin-top: 100px;
+    padding-top: 30px;
+    height: 100px;
+}
